@@ -6,6 +6,8 @@ This sample demonstrates how to add authentication to a React application with A
 
 If you haven't already done so, [sign up](https://auth0.com) for your free Auth0 account and create a new client in the [dashboard](https://manage.auth0.com). Find the **domain** and **client ID** from the settings area and add the URL for your application to the **Allowed Callback URLs** box. If you are using the server provided by the create-react-app, that URL is `http://localhost:3000`.
 
+Copy the contents of src/auth0-hosted-login-page/hosted-page into `Hosted Pages -> Login` (Customize Login Page enabled) on the Auth0 Dashboard. Ensure you have a Google Social Connection, a username/password Connection, and a Passwordless OTP with Code connection defined in the Auth0 Dashboard.
+
 Clone the repo or download it from the React quickstart page in Auth0's documentation. Install create-react-app globally and the dependencies for the app.
 
 ```bash
